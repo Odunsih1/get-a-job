@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Button from "../ui/Button";
-import Logo from "../../assets/images/logo.png";
+import Logo from "/images/logo.png";
 import Hero from "../ui/Hero";
 
 const Header = () => {

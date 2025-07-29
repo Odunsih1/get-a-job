@@ -1,5 +1,4 @@
 import React from "react";
-import Logos from "../../assets/images/Logos.png";
 
 const TopCompanies = () => {
   return (
@@ -44,7 +43,7 @@ const TopCompanies = () => {
       <div>
         <img
           className="w-[100%] lg:max-w-[458px]"
-          src={Logos}
+          src={"/images/Logos.png"}
           alt="top companies"
         />
       </div>

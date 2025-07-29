@@ -6,7 +6,11 @@ const WorkCard = ({ Person, JobTitle, Company, className }) => {
   const style = [baseStyle, className].join("");
   return (
     <div className={style}>
-      <img src={Person} className="lg:w-[310px] w-[100%] h-[247px]" alt="person1" />
+      <img
+        src={Person}
+        className="lg:w-[310px] w-[100%] h-[247px]"
+        alt="person1"
+      />
       <p className="font-medium text-center text-[16px]/[15">
         {JobTitle} <span className="text-[#06942A]">@ {Company}</span>
       </p>

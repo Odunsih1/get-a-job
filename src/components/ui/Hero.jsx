@@ -1,9 +1,4 @@
 import React from "react";
-import Google from "../../assets/images/google.png";
-import Paystack from "../../assets/images/paystack.png";
-import Kpmg from "../../assets/images/kpmg.png";
-import HeroImg from "../../assets/images/hero-image.png";
-import Rectangle from "../../assets/images/Rectangle.png";
 import { MapPin } from "lucide-react";
 
 const Hero = () => {
@@ -56,19 +51,43 @@ const Hero = () => {
             <div className="flex flex-col gap-7">
               <h4>Trusted by:</h4>
               <div className="flex w-[100%] gap-5 overflow-x-auto">
-                <img src={Paystack} width={156} height={23} alt="paystack" />{" "}
-                <img src={Google} width={103} height={43} alt="paystack" />{" "}
-                <img src={Kpmg} width={79} height={23} alt="paystack" />
+                <img
+                  src={"/images/paystack.png"}
+                  width={156}
+                  height={23}
+                  alt="paystack"
+                />{" "}
+                <img
+                  src={"/images/google.png"}
+                  width={103}
+                  height={43}
+                  alt="paystack"
+                />{" "}
+                <img
+                  src={"/images/kpmg.png"}
+                  width={79}
+                  height={23}
+                  alt="paystack"
+                />
               </div>
             </div>
           </div>
           <div className="xl:z-50 mt-10">
-            <img src={HeroImg} width={590} height={732} alt="man" />
+            <img
+              src={"/images/hero-image.png"}
+              width={590}
+              height={732}
+              alt="man"
+            />
           </div>
         </div>
       </section>
       <div className=" hidden xl:block top-0 w-full absolute   ">
-        <img src={Rectangle} className="w-[65%]  max-h-[900px]" alt="" />
+        <img
+          src={"/images/Rectangle.png"}
+          className="w-[65%]  max-h-[900px]"
+          alt=""
+        />
       </div>
     </>
   );

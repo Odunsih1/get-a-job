@@ -1,8 +1,4 @@
 import React from "react";
-import Pay from "../../assets/images/pay.png";
-import Google from "../../assets/images/goog.png";
-import Access from "../../assets/images/access.png";
-import Flutter from "../../assets/images/flutter.png";
 import Card from "./Card";
 
 const Recommend = () => {
@@ -15,15 +11,16 @@ const Recommend = () => {
         <Card
           jobType={"Full time"}
           jobTitle={"QA Engineer"}
-          logo={Pay}
+          logo={"/images/pay.png"}
           alt={"Paystack"}
           location={"Lagos, Nigeria"}
-          w={166} h={31}
+          w={166}
+          h={31}
         />
         <Card
           jobType={"Full time"}
           jobTitle={"QA Engineer"}
-          logo={Google}
+          logo={"/images/goog.png"}
           alt={"Paystack"}
           location={"Lagos, Nigeria"}
           w={60}
@@ -31,7 +28,7 @@ const Recommend = () => {
         <Card
           jobType={"Full time"}
           jobTitle={"QA Engineer"}
-          logo={Flutter}
+          logo={"/images/flutter.png"}
           alt={"Paystack"}
           location={"Lagos, Nigeria"}
           w={66}
@@ -39,7 +36,7 @@ const Recommend = () => {
         <Card
           jobType={"Full time"}
           jobTitle={"QA Engineer"}
-          logo={Access}
+          logo={"/images/access.png"}
           alt={"Paystack"}
           location={"Lagos, Nigeria"}
           w={205}

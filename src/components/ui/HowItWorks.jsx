@@ -1,7 +1,4 @@
 import React from "react";
-import Person1 from "../../assets/images/Person1.png";
-import Person2 from "../../assets/images/Person2.png";
-import Person3 from "../../assets/images/Person3.png";
 import WorkCard from "./WorkCard";
 import ContentCard from "./ContentCard";
 
@@ -10,19 +7,19 @@ const HowItWorks = () => {
     <section className="flex 2xl:justify-evenly items-center flex-col gap-15 2xl:flex-row mt-30 ">
       <div className="max-w-[676px] w-[100%] lg:block flex flex-col items-center lg:max-h-[743px] ">
         <WorkCard
-          Person={Person1}
+          Person={"/images/Person1.png"}
           JobTitle={"Product Analyst"}
           Company={"Paystack"}
         />
         <WorkCard
           className={"lg:relative lg:left-120 lg:bottom-50"}
-          Person={Person2}
+          Person={"/images/Person2.png"}
           JobTitle={"HR Manager"}
           Company={"Paystack"}
         />
         <WorkCard
           className={"lg:relative lg:bottom-100 lg:left-9 "}
-          Person={Person3}
+          Person={"/images/Person3.png"}
           JobTitle={"Securities Trader"}
           Company={"Mckinnesy"}
         />

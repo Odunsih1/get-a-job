@@ -11,7 +11,7 @@ const WorkCard = ({ Person, JobTitle, Company, className }) => {
         className="lg:w-[310px] w-[100%] h-[247px]"
         alt="person1"
       />
-      <p className="font-medium text-center text-[16px]/[15">
+      <p className="font-medium text-center text-[16px]/[1.5]">
         {JobTitle} <span className="text-[#06942A]">@ {Company}</span>
       </p>
     </div>

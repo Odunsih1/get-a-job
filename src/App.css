@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.bgimg {
+  background-image: url("../src/assets/images/bgimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.568);
+  background-blend-mode: multiply;
+}

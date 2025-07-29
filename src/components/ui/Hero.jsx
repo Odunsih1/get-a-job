@@ -4,6 +4,7 @@ import Paystack from "../../assets/images/paystack.png";
 import Kpmg from "../../assets/images/kpmg.png";
 import HeroImg from "../../assets/images/hero-image.png";
 import Rectangle from "../../assets/images/Rectangle.png";
+import { MapPin } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -19,19 +20,24 @@ const Hero = () => {
               websites, we create a premium experience for job seekers,
               employers, and data seekers alike.
             </p>
-            <div className="flex bg-white pl-8 justify-between max-w-[532px] rounded-[50px]">
+            <div className="flex relative bg-white pl-8 justify-between max-w-[532px] rounded-[50px]">
               <input
                 type="text"
                 className="text-[14px]/[150%]  outline-0 w-[60%]  text-[#9B9B9B]"
                 placeholder="Enter keywords, skill, interest"
               />
               <div className="border ml-2 md:ml-24 border-[#E5E5E5] "></div>
-              <input
-                type="text"
-                className="text-[14px]/[150%] outline-0 w-[40%] pl-2.5 text-[#9B9B9B]"
-                placeholder="Location"
-              />
-
+              <div className="relative w-[40%] ">
+                <input
+                  type="text"
+                  className="text-[14px]/[150%]   outline-0  w-full h-full pl-12 text-[#9B9B9B]"
+                  placeholder="Location"
+                />
+                <MapPin
+                  className="absolute left-3 top-1/2 transform -translate-y-1/2"
+                  color="#C4C4C4"
+                />
+              </div>
               <div className="bg-[#06942A] rounded-br-[50px] rounded-tr-[50px] w-[59px] h-[47px] flex justify-center items-center">
                 <svg
                   width="24"

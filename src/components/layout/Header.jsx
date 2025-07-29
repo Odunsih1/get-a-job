@@ -41,7 +41,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="flex max-w-[1240px] m-auto justify-between items-center">
+      <nav className="flex max-w-[1240px] m-auto justify-between items-center xl:relative fixed  w-[100%]  z-50 ">
         <div>
           <img src={Logo} width={68} height={68} alt="logo" />
         </div>

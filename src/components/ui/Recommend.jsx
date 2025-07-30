@@ -4,7 +4,7 @@ import Card from "./Card";
 const Recommend = () => {
   return (
     <section className="mt-30 lg:mt-70 flex flex-col p-10">
-      <h2 className="font-bold flex flex-col max-w-[1240px] m-auto lg:mb-30 text-[26px]  lg:text-[36px]">
+      <h2 className="font-bold gt flex flex-col max-w-[1240px] m-auto lg:mb-30 text-[26px]  lg:text-[36px]">
         Recommended Jobs
       </h2>
       <div className="flex 2xl:m-auto gap-8 overflow-x-auto">

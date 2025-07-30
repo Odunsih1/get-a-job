@@ -4,7 +4,7 @@ const CustomerSay = () => {
   return (
     <section className="xl:mt-270 lg:mt-40 p-[80px_40px]">
       <div className="max-w-[1240px] m-auto">
-        <h1 className="font-bold text-[26px] lg:text-[36px]/[1.5]  text-[#3F403F] max-w-[470px]">
+        <h1 className="font-bold gt text-[26px] lg:text-[36px]/[1.5]  text-[#3F403F] max-w-[470px]">
           What are our customer saying
         </h1>
       </div>
@@ -28,7 +28,7 @@ const CustomerSay = () => {
             or shortlisted me
           </p>
           <div className="flex flex-col gap-4">
-            <h5 className="text-[21px] text-[#3F403F]">Irma Black</h5>
+            <h5 className="text-[21px] gt text-[#3F403F]">Irma Black</h5>
             <h6 className="text-[21px] text-[#9B9B9B]">
               HR Manager at MasterCard
             </h6>

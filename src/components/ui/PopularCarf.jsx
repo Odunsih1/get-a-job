@@ -6,7 +6,7 @@ const PopularCarf = ({ image, w, h, alt, name, no }) => {
       <div className="bg-[#06942A1A] w-[80px] h-[80px] rounded-[50%] flex items-center justify-center">
         <img src={image} width={w} height={h} alt={alt} />
       </div>
-      <h5 className="font-medium text-[21px]/[1.5] text-center">{name}</h5>
+      <h5 className="font-medium gt text-[21px]/[1.5] text-center">{name}</h5>
       <p className="font-medium text-[14px]/[1.5] text-[#9B9B9B] text-center">
         ({no} new jobs)
       </p>

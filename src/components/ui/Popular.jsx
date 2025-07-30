@@ -4,7 +4,7 @@ import PopularCarf from "./PopularCarf";
 const Popular = () => {
   return (
     <section className="flex flex-col items-center mt-20 gap-10">
-      <h1 className="font-bold text-[26px] lg:text-[36px] text-center">
+      <h1 className="font-bold gt text-[26px] lg:text-[36px] text-center">
         Popular Categories
       </h1>
       <div className="grid 2xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-4">

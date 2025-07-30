@@ -4,7 +4,7 @@ const TopCompanies = () => {
   return (
     <section className="flex flex-col xl:absolute lg:flex-row justify-evenly items-center bg-[#06942A0D] xl:w-[95%] right-0 p-[80px_40px]  mt-40">
       <div className="flex flex-col gap-5 max-w-[528px]">
-        <h2 className="font-bold text-[26px] lg:text-[36px]/[1.5] text-[#3F403F]">
+        <h2 className="font-bold gt text-[26px] lg:text-[36px]/[1.5] text-[#3F403F]">
           {" "}
           Over 1000+ jobs from top companies in our network
         </h2>

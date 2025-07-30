@@ -23,7 +23,7 @@ const ContentCard = ({ title, description }) => {
             fill="#06942A"
           />
         </svg>
-        <h5 className="font-medium text-[22px] lg:text-[24px]">{title}</h5>
+        <h5 className="font-medium gt text-[22px] lg:text-[24px]">{title}</h5>
       </div>
       <p className="text-[#3F403F] text-[14px] lg:text-[16px]/[2]">{description}</p>
     </div>

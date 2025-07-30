@@ -25,7 +25,7 @@ const HowItWorks = () => {
         />
       </div>
       <div className="lg:max-w-[480px] w-[95%] p-3 flex flex-col gap-10">
-        <h2 className="font-bold text-[26px] lg:text-[36px]">How it works</h2>
+        <h2 className="font-bold gt text-[26px] lg:text-[36px]">How it works</h2>
         <p className="text-[16px]/[2] text-[#3F403F]">
           Get a job helps you find the right job easily.
         </p>

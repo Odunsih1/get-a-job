@@ -10,12 +10,12 @@ const Footer = () => {
         <div className="flex flex-col gap-7">
           <img src={Logo} width={82} alt="logo" />
           <p className="text-[14px]/[1.5] text-[#3F403F]">
-            Getajobng provides a full online service for anyone looking for a
+            Get a job provides a full online service for anyone looking for a
             new job. We're not a recruitment agency, we're a job site.
           </p>
         </div>
         <div className="flex flex-col gap-7">
-          <h5 className="text-[#3F403F] text-[18px] font-medium">
+          <h5 className="text-[#3F403F] gt text-[18px] font-medium">
             Information
           </h5>
           <ul className="flex flex-col gap-4">
@@ -31,7 +31,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col gap-7">
-          <h5 className="text-[#3F403F] text-[18px] font-medium">
+          <h5 className="text-[#3F403F] gt text-[18px] font-medium">
             Job Seekers
           </h5>
           <ul className="flex flex-col gap-4">
@@ -47,7 +47,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col gap-7">
-          <h5 className="text-[#3F403F] text-[18px] font-medium">Employers</h5>
+          <h5 className="text-[#3F403F] gt text-[18px] font-medium">Employers</h5>
           <ul className="flex flex-col gap-4">
             <li className="text-[14px]/[1.5] text-[#3F403F]">
               <a href="#">Create Account</a>
@@ -61,7 +61,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex flex-col gap-7">
-          <h5 className="text-[#3F403F] text-[18px] font-medium">
+          <h5 className="text-[#3F403F] gt text-[18px] font-medium">
             Social Media
           </h5>
           <div className="flex gap-2">

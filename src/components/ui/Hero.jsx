@@ -4,10 +4,10 @@ import { MapPin } from "lucide-react";
 const Hero = () => {
   return (
     <>
-      <section className="max-w-[1240px] w-[100%] m-auto">
-        <div className="flex w-[100%] bg-[#eefff2] xl:bg-[#edff2200] flex-col xl:flex-row  xl:z-50 items-center justify-evenly m-auto">
+      <section className="max-w-[1240px] graphik w-[100%]  m-auto">
+        <div className="flex w-[100%] xl:pt-0 pt-14 bg-[#eefff2] xl:bg-[#edff2200] flex-col xl:flex-row  xl:z-50 items-center justify-evenly m-auto">
           <div className="xl:z-50 flex flex-col p-5  gap-7 max-w-[549px] w-[100%]">
-            <h1 className="font-bold text-center lg:text-start text-[48px]">
+            <h1 className="font-bold gt text-center lg:text-start text-[48px]">
               Find a <span className="text-[#06942A]">job</span> easily
             </h1>
             <p className="text-[16px]/[200%] text-center xl:text-start text-[#3F403F]">
